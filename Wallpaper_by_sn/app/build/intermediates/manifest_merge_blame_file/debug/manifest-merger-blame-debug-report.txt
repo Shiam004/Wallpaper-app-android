@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shabiruzzaman_shiam.wallpaper_by_sn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\261b7be17b0b7e4da5d968865428d882\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\261b7be17b0b7e4da5d968865428d882\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\261b7be17b0b7e4da5d968865428d882\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\261b7be17b0b7e4da5d968865428d882\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+13
+14    <application
+14-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:5:5-25:19
+15        android:allowBackup="true"
+15-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:11:9-40
+24        <activity android:name="com.shabiruzzaman_shiam.wallpaper_by_sn.activities.HomeActivity" />
+24-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:12:9-70
+24-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:12:19-58
+25        <activity android:name="com.shabiruzzaman_shiam.wallpaper_by_sn.activities.Dashboard" />
+25-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:13:9-58
+25-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:13:19-55
+26        <activity android:name="com.shabiruzzaman_shiam.wallpaper_by_sn.activities.MainActivity" >
+26-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:14:9-20:20
+26-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:14:19-58
+27            <intent-filter>
+27-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:15:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:16:17-69
+28-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:18:17-77
+30-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <meta-data
+34-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:22:9-24:57
+35            android:name="preloaded_fonts"
+35-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:23:13-43
+36            android:resource="@array/preloaded_fonts" />
+36-->C:\Users\Shiam\Desktop\firebase-monetization-tips\Wallpaper_by_sn\app\src\main\AndroidManifest.xml:24:13-54
+37
+38        <activity
+38-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\0b13c732123375d3c22d1e3e85d9b945\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+39            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+39-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\0b13c732123375d3c22d1e3e85d9b945\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+40            android:exported="false"
+40-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\0b13c732123375d3c22d1e3e85d9b945\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+41-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\0b13c732123375d3c22d1e3e85d9b945\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+42
+43        <provider
+43-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\27bf1734655213b95488254fc5f9a826\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+44            android:name="com.google.firebase.provider.FirebaseInitProvider"
+44-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\27bf1734655213b95488254fc5f9a826\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+45            android:authorities="com.shabiruzzaman_shiam.wallpaper_by_sn.firebaseinitprovider"
+45-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\27bf1734655213b95488254fc5f9a826\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+46            android:exported="false"
+46-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\27bf1734655213b95488254fc5f9a826\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+47            android:initOrder="100" />
+47-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\27bf1734655213b95488254fc5f9a826\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+48
+49        <meta-data
+49-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\2d52b80f340b619adeab7cf95e1047a9\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+50            android:name="com.google.android.gms.version"
+50-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\2d52b80f340b619adeab7cf95e1047a9\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Shiam\.gradle\caches\transforms-2\files-2.1\2d52b80f340b619adeab7cf95e1047a9\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+52    </application>
+53
+54</manifest>

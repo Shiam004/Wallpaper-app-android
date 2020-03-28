@@ -1,0 +1,4 @@
+#Sun Mar 29 02:58:42 BDT 2020
+base.0=C\:\\Users\\Shiam\\Desktop\\firebase-monetization-tips\\Wallpaper_by_sn\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
